@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
           numquam et voluptates recusandae explicabo, aperiam placeat quisquam
           accusamus? A ut distinctio harum explicabo tenetur optio qui veniam,

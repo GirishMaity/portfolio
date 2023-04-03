@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../assets/dev-ed-wave.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 const Home = () => {
   return (
@@ -36,11 +37,20 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img
+          <Player
+            src="https://assets8.lottiefiles.com/packages/lf20_v9riyrep.json"
+            background="transparent"
+            speed="1"
+            style={{ width: "350px", height: "350px" }}
+            loop
+            controls
+            autoplay
+          />
+          {/* <img
             src={HeroImage}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
+          /> */}
         </div>
       </div>
     </div>
