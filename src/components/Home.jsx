@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/dev-ed-wave.png";
+import HeroImage from "../assets/dev-ed-wave.webp";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
@@ -16,10 +16,12 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Hey there! I'm Girish Maity, a full stack developer with a knack for
+            Node.js, Express.js, and MongoDB. Along the way, I've picked up some
+            C++, React JS, JavaScript, AWS, Git, and other nifty skills. I've
+            also worked on some pretty cool projects like a MERN chat
+            application and a web-based password manager. Ready to code my way
+            into the future!
           </p>
 
           <div>
