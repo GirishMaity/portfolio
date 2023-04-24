@@ -1,14 +1,8 @@
 import React from "react";
-// import ReactDOM from "react-dom";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import chatApp from "../assets/portfolio/online-worlds.png";
 import selectionSort from "../assets/portfolio/selectionSort.png";
 import network from "../assets/portfolio/network.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/authentication.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import Carousel from "react-elastic-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
