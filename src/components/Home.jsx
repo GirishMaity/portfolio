@@ -1,8 +1,7 @@
 import React from "react";
-import HeroImage from "../assets/dev-ed-wave.webp";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const Home = () => {
   return (
