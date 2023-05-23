@@ -55,7 +55,7 @@ function Header() {
           <Nav.Item>
             <NavLink
               className="nav-link"
-              // to="/about"
+              to="/about"
               onClick={() => updateExpanded(false)}
             >
               About

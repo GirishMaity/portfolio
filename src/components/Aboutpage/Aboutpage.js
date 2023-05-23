@@ -1,43 +1,134 @@
-import React from 'react'
-import '../../pages/style.css';
-import { Container, Row, Col } from 'react-bootstrap'
-
+import React from "react";
+import "../../pages/style.css";
+import { Container, Row, Col } from "react-bootstrap";
+import htmlIcon from "../../Assets/skills/html.svg";
+import cIcon from "../../Assets/skills/c.svg";
+import cssIcon from "../../Assets/skills/css.svg";
+import firebaseIcon from "../../Assets/skills/firebase.svg";
+import gitIcon from "../../Assets/skills/git.svg";
+import javascriptIcon from "../../Assets/skills/javascript.svg";
+import nodeIcon from "../../Assets/skills/node-js.svg";
+import reactIcon from "../../Assets/skills/react.svg";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Aboutpage() {
-    return (
-        <div className='aboutpagebackground'>
-            <Container>
-                <Row className='textbackground'>
-                    <Col md={7} >
-                        <h3 className='aboutmetext'>About <span>Me</span></h3>
-                        <p className='aboutdetails'>I'm a self-taught Front End developer from India. I build websites with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices.
-                        </p>
-                        <ul className='skilllist'>
-                            <Row>
-                                <h3>Skills</h3>
-                                <Col md={7}>
-                                    <li>HTML5/CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                    <li>Bootsrap 5</li>
-                                </Col>
-                                <Col md={5}>
-                                    <li>React Js</li>
-                                    <li>Redux Js</li>
-                                    <li>React-Bootsrap</li>
-                                    <li>Material-ui</li>
-                                    <li>Git/Github</li>
-                                </Col>
-                            </Row>
-                        </ul>
-                    </Col>
-                    <Col md={5}>
-                        <div className="webimage"></div>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    )
+  return (
+    <div className="aboutpagebackground">
+      <Container>
+        <Row className="textbackground">
+          <Col md={7}>
+            <h3 className="aboutmetext">
+              About <span>Me</span>
+            </h3>
+            <p className="aboutdetails">
+              I am a Full Stack Developer with hands-on experience in developing
+              web applications using React.js, Node.js, and Firebase. I have
+              worked on various projects that involved creating RESTful APIs,
+              implementing authentication middleware, and integrating APIs for
+              email, spreadsheet, and Firebase. I have also worked on developing
+              admin portals for managing and editing data. With strong technical
+              skills in JavaScript, HTML, CSS, AWS, Git, and Linux, I am always
+              eager to learn new technologies and implement them in my projects
+            </p>
+            <ul className="skilllist">
+              <Row>
+                <h3>Skills</h3>
+                <Col md={7}>
+                  <li>
+                    <img
+                      src={htmlIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    HTML
+                  </li>
+                  <li>
+                    <img
+                      src={javascriptIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    JavaScript
+                  </li>
+                  <li>
+                    <img
+                      src={reactIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    React Js
+                  </li>
+                  <li>
+                    <img
+                      src={nodeIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    Node Js
+                  </li>
+                </Col>
+                <Col md={5}>
+                  <li>
+                    <img
+                      src={cIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    C++
+                  </li>
+                  <li>
+                    <img
+                      src={cssIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    CSS
+                  </li>
+                  <li>
+                    <img
+                      src={gitIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    Git
+                  </li>
+                  <li>
+                    <img
+                      src={firebaseIcon}
+                      width="20rem"
+                      height="20rem"
+                      style={{ marginRight: "0.4rem" }}
+                    />
+                    Firebase
+                  </li>
+                </Col>
+              </Row>
+            </ul>
+          </Col>
+          <Col md={5}>
+            <div>
+              <Player
+                src="https://assets4.lottiefiles.com/packages/lf20_xu3jsjrn.json"
+                background="transparent"
+                speed="1"
+                style={{ width: "400px", height: "400px" }}
+                loop
+                controls
+                autoplay
+              />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }
 
-export default Aboutpage
+export default Aboutpage;
