@@ -40,6 +40,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="html"
                     />
                     HTML
                   </li>
@@ -49,6 +50,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="js"
                     />
                     JavaScript
                   </li>
@@ -58,6 +60,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="react"
                     />
                     React Js
                   </li>
@@ -67,6 +70,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="node"
                     />
                     Node Js
                   </li>
@@ -78,6 +82,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="cpp"
                     />
                     C++
                   </li>
@@ -87,6 +92,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="css"
                     />
                     CSS
                   </li>
@@ -96,6 +102,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="git"
                     />
                     Git
                   </li>
@@ -105,6 +112,7 @@ function Aboutpage() {
                       width="20rem"
                       height="20rem"
                       style={{ marginRight: "0.4rem" }}
+                      alt="fb"
                     />
                     Firebase
                   </li>

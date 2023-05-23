@@ -37,7 +37,11 @@ function ProjectCard(props) {
               href={props.ghLink}
               target="_blank"
             >
-              <img src={github} style={{ marginRight: "0.5rem" }} />
+              <img
+                src={github}
+                style={{ marginRight: "0.5rem" }}
+                alt="image1"
+              />
               Code
             </Button>
             <Button
@@ -46,7 +50,7 @@ function ProjectCard(props) {
               href={props.demoLink}
               target="_blank"
             >
-              <img src={link} style={{ marginRight: "0.5rem" }} />
+              <img src={link} style={{ marginRight: "0.5rem" }} alt="image2" />
               Live
             </Button>
           </div>
