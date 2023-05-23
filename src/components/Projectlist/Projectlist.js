@@ -22,7 +22,8 @@ function Projectlist() {
                 title="Face Insight AI"
                 description="
 AI Face Insight is a React app that utilizes Azure Face API to analyze human faces. It accurately detects attributes like head position, accessories, and glasses, providing a comprehensive summary. Accessible on Firebase for convenient usage."
-                ghLink="https://rahul-dashboard-pannel.netlify.app"
+                ghLink="https://github.com/0xankityadav/ai-face-app"
+                demoLink="https://faceinsightai.live/"
               />
             </Col>
 
@@ -33,7 +34,8 @@ AI Face Insight is a React app that utilizes Azure Face API to analyze human fac
                 title="MERN Chat Application"
                 description="
 This MERN-based web chat app utilizes socket.io for real-time communication. It includes RESTful APIs for efficient data exchange, ensuring a seamless and reliable chatting experience."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                ghLink="https://github.com/GirishMaity/Secure-chat-application"
+                demoLink="https://www.chat-up.me/"
               />
             </Col>
 
@@ -44,7 +46,7 @@ This MERN-based web chat app utilizes socket.io for real-time communication. It 
                 title="Password Manager"
                 description="
 This MERN-based password manager ensures highly secure password management. It utilizes industry-standard encryption to protect user data and integrates the HaveIBeenPwned API for password breach checks, enhancing overall security."
-                ghLink="https://react-netflixweb-clone.netlify.app/"
+                ghLink="https://github.com/GirishMaity/Password_Manager"
               />
             </Col>
 
@@ -54,7 +56,8 @@ This MERN-based password manager ensures highly secure password management. It u
                 isBlog={false}
                 title="Selection Sort Simulator"
                 description="A selection sort simulator in HTML, CSS, and JS visualizes the sorting process step-by-step. Users can control speed, pause, and reset the simulation. Ideal for visual learning of sorting algorithms."
-                ghLink="https://gridlinesbuilders.in/"
+                ghLink="https://github.com/GirishMaity/Selection-Sort-Visualizer"
+                demoLink="https://girishmaity.github.io/Selection-Sort-Visualizer/"
               />
             </Col>
 
@@ -64,7 +67,8 @@ This MERN-based password manager ensures highly secure password management. It u
                 isBlog={false}
                 title="Keyword Extractor"
                 description="Keyword Extractor is a user-friendly React app that extracts relevant keywords from text using the OpenAPI API. Ideal for content optimization, research, and analysis, it simplifies the identification of valuable insights in textual data."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
+                ghLink="https://github.com/GirishMaity/ai-keyword-extractor"
+                demoLink="https://keyword-extractor-6cc7c.web.app/"
               />
             </Col>
 
@@ -75,7 +79,7 @@ This MERN-based password manager ensures highly secure password management. It u
                 title="Secure Instituitional Network"
                 description="
 We built a secure network for an institution using Cisco Packet Tracer. With VLAN segmentation, ACLs, and encryption, we ensured data security."
-                ghLink="https://todolist-rahul81.netlify.app/"
+                ghLink="https://github.com/GirishMaity/CISCO-internship-project"
               />
             </Col>
           </Row>
