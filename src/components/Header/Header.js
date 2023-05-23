@@ -65,7 +65,7 @@ function Header() {
           <Nav.Item>
             <NavLink
               className="nav-link"
-              // to="/project"
+              to="/project"
               onClick={() => updateExpanded(false)}
             >
               Projects
