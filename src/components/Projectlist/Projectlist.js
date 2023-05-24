@@ -2,12 +2,12 @@ import React from "react";
 import "../../pages/style.css";
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
-import chat from "../../Assets/projects/chat1.jpg";
-import face from "../../Assets/projects/face1.jpg";
-import keyword from "../../Assets/projects/keyword2.jpg";
-import network from "../../Assets/projects/network1.jpg";
-import password from "../../Assets/projects/password1.jpg";
-import sort from "../../Assets/projects/sort1.jpg";
+import chat from "../../Assets/projects/chat1.webp";
+import face from "../../Assets/projects/face1.webp";
+import keyword from "../../Assets/projects/keyword2.webp";
+import network from "../../Assets/projects/network1.webp";
+import password from "../../Assets/projects/password1.webp";
+import sort from "../../Assets/projects/sort1.webp";
 
 function Projectlist() {
   return (

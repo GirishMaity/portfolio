@@ -2,6 +2,7 @@ import React from "react";
 import "../../pages/style.css";
 import { Container } from "react-bootstrap";
 import { Player } from "@lottiefiles/react-lottie-player";
+import contact from "../../Assets/animations/contact.json";
 
 function Contactpage() {
   return (
@@ -118,7 +119,7 @@ function Contactpage() {
         </div>
       </Container>
       <Player
-        src="https://assets4.lottiefiles.com/packages/lf20_u25cckyh.json"
+        src={contact}
         background="transparent"
         speed="1"
         style={{ width: "400px", height: "400px" }}

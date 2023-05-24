@@ -5,6 +5,7 @@ import Text from "../Homepage/Text";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Player } from "@lottiefiles/react-lottie-player";
+import home from "../../Assets/animations/home.json";
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
           <Col md={5}>
             <div>
               <Player
-                src="https://assets8.lottiefiles.com/packages/lf20_v9riyrep.json"
+                src={home}
                 background="transparent"
                 speed="1"
                 style={{ width: "400px", height: "400px" }}

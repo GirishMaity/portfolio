@@ -10,6 +10,7 @@ import javascriptIcon from "../../Assets/skills/javascript.svg";
 import nodeIcon from "../../Assets/skills/node-js.svg";
 import reactIcon from "../../Assets/skills/react.svg";
 import { Player } from "@lottiefiles/react-lottie-player";
+import about from "../../Assets/animations/about.json";
 
 function Aboutpage() {
   return (
@@ -123,7 +124,7 @@ function Aboutpage() {
           <Col md={5}>
             <div>
               <Player
-                src="https://assets4.lottiefiles.com/packages/lf20_xu3jsjrn.json"
+                src={about}
                 background="transparent"
                 speed="1"
                 style={{ width: "400px", height: "400px" }}
